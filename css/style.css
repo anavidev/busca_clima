@@ -6,7 +6,6 @@
 }
 
 /* body */
-
 .bg-primary{
     background: linear-gradient(360deg, rgb(28,96,163) 0%, rgb(86,165,218) 100%) !important;
     display: flex;
@@ -14,10 +13,6 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-}
-
-.hide{
-    display: none
 }
 
 /* container geral */

@@ -11,35 +11,35 @@
 <body class="bg-primary">
     <div class="container-fluid bg-secondary py-4 rounded-5">
         <!-- form -->
-        <h2 class="mb-4">Informe a cidade que deseja ver o clima!</h2>
+        <h2 class="mb-4 px-5">Informe o estado ou cidade que deseja ver o clima</h2>
         <form class="row">
             <div class="row-auto">
-                <input type="text" class="form-control mb-2 fs-6 p-2" id="inputCidade" placeholder="Informe a cidade">
-                <button type="submit" class="btn btn-primary mb-4 p-1">
+                <input type="text" class="form-control mb-2 fs-6 p-2" id="inputCidade" placeholder="Informe o estado/cidade">
+                <button type="submit" class="btn btn-primary mb-4 p-1" id="botaoPesquisa">
                     <i class="bi-search"></i>
                 </button>
             </div>
         </form>
         <!-- informacoes basicas do clima -->
         <div class="container-fluid" id="dadosClima">
-            <h3>
+            <h3 id="cidadeNome">
                 <i class="bi-geo-fill"></i>
-                <span id="cidade">São Paulo</span>
+                <span>-</span>
             </h3>
-            <p id="temperatura"><span>24</span>&deg;C</p>
+            <p class="fs-5" id="temperatura"><span>-</span>&deg;C</p>
             <div class="container-fluid" id="containerDescricao">
-                <p id="description">Ensolarado</p>
+                <p class="text-capitalize fs-5" id="descricao"><span>-</span></p>
                 <img src="http://openweathermap.org/img/wn/01d.png" alt="Condições do Tempo" class="img-fluid" id="iconeTempo">
             </div>
             <!-- detalhes do clima -->
             <div class="container-fluid" id="containerDetalhes">
-                <p id="umidade">
+                <p class="fs-5" id="umidade">
                     <i class="bi-droplet-half"></i>
-                    <span>13%</span>
+                    <span>-</span>%
                 </p>
-                <p id="vento">
+                <p class="fs-5" id="vento">
                     <i class="bi-wind"></i>
-                    <span>15 Km/h</span>
+                    <span>-</span> Km/h
                 </p>
             </div>
         </div>
