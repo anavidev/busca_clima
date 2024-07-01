@@ -6,8 +6,7 @@
 }
 
 /* body */
-.bg-primary{
-    background: linear-gradient(360deg, rgb(28,96,163) 0%, rgb(86,165,218) 100%) !important;
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,19 +15,18 @@
 }
 
 /* container geral */
-.bg-secondary{
+#aplicacao{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(86,165,218) !important;
     box-shadow: rgba(0,0,0,0.3) 5px 5px 10px;
     color: rgb(65, 65, 65);
     width: 75%;
     transition: width 0.3s ease-in-out;
 }
 
-.bg-secondary:hover{
+#aplicacao:hover{
     width: 80%;
     height: auto;
 }
@@ -40,16 +38,14 @@ form{
     align-items: center;
 }
 
-.btn-primary{
-    background-color: rgb(15, 79, 122);
-    border-color: rgb(15, 79, 122);
+#botaoPesquisa{
     transition: background-color 0.3s;
     text-align: center;
     width: 50%;
     transition: width 0.3s ease-in-out;
 }
 
-.btn-primary:hover{
+#botaoPesquisa:hover{
     background-color: rgb(11, 64, 100);
     border-color: rgb(11, 64, 100);
     width: 55%;

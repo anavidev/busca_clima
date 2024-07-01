@@ -1,0 +1,12 @@
+.bg-primary{
+    background: linear-gradient(360deg, rgb(28,96,163) 0%, rgb(86,165,218) 100%) !important;
+}
+
+.bg-secondary{
+    background-color: rgb(86,165,218) !important;
+}
+
+.btn-primary{
+    background-color: rgb(15, 79, 122);
+    border-color: rgb(15, 79, 122);
+}
